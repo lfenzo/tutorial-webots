@@ -33,7 +33,7 @@ def run_robot(robot):
             print("vá para a esquerda")
             left_speed = -max_speed * 0.25
         elif right_ir_value > left_ir_value and (6 < right_ir_value < 15):
-            print("vá para a esquerda")
+            print("vá para a direita")
             right_speed = -max_speed * 0.25
 
         left_motor.setVelocity(left_speed)
